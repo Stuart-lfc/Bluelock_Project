@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(to bottom, #020c1b, #041e3a);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    background: #0d1b2a;
+    padding: 1rem 2rem;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #1ecbe1;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .main-content a img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .main-content a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(30, 203, 225, 0.6);
+  }
+
+  footer {
+    background: #0d1b2a;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #ccc;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 200px;
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 0 0 10px rgba(30, 203, 225, 0.8), 0 0 20px rgba(30, 203, 225, 0.8), 0 0 30px rgba(30, 203, 225, 0.8);
+}
